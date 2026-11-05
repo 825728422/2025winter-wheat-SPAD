@@ -10,7 +10,6 @@ This package supports verification of the workflow reported in the revised manus
 
 The subset is provided for peer-review verification and is not the complete field dataset. The package supports checks of the supplied subset and reported processing summaries; it cannot reproduce the complete analysis. The extent-based row in the sensitivity table is an independent reconstruction rather than an exact replication of the original mask-transfer operation. Original high-resolution UAV imagery and other raw project files are not included. The complete dataset and original imagery will be considered for release after acceptance, subject to author and project permissions.
 
-Repository URL: `GITHUB_URL_TO_BE_INSERTED`
 
 ## Quick check
 
