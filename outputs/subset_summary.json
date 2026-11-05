@@ -1,0 +1,57 @@
+{
+  "records": 200,
+  "plots": 40,
+  "stage_counts": {
+    "孕穗期": 40,
+    "拔节期": 40,
+    "灌浆期": 40,
+    "起身期": 40,
+    "返青期": 40
+  },
+  "mean_SPAD_by_stage": [
+    {
+      "stage_order": 1.0,
+      "stage": "返青期",
+      "records": 40.0,
+      "mean_SPAD": 44.18875,
+      "sd_SPAD": 4.507698933989178
+    },
+    {
+      "stage_order": 2.0,
+      "stage": "起身期",
+      "records": 40.0,
+      "mean_SPAD": 50.379000000000005,
+      "sd_SPAD": 4.822514398962963
+    },
+    {
+      "stage_order": 3.0,
+      "stage": "拔节期",
+      "records": 40.0,
+      "mean_SPAD": 51.3325,
+      "sd_SPAD": 7.897788963553059
+    },
+    {
+      "stage_order": 4.0,
+      "stage": "孕穗期",
+      "records": 40.0,
+      "mean_SPAD": 56.47027777777778,
+      "sd_SPAD": 10.32984850330816
+    },
+    {
+      "stage_order": 5.0,
+      "stage": "灌浆期",
+      "records": 40.0,
+      "mean_SPAD": 22.744999999999997,
+      "sd_SPAD": 16.018166769848126
+    }
+  ],
+  "sensitivity_rows": 32,
+  "sensitivity_GF_RMSE_range": [
+    11.604659573045936,
+    11.874706122341752
+  ],
+  "sensitivity_pooled_RMSE_range": [
+    6.736657358890919,
+    6.823574334290425
+  ]
+}

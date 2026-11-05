@@ -1,0 +1,16 @@
+{
+  "reference_model": {
+    "estimator": "RandomForestRegressor",
+    "n_estimators": 500,
+    "max_features": "sqrt",
+    "min_samples_leaf": 2,
+    "random_state": 20261002
+  },
+  "validation": {
+    "outer": "leave-one-row-group-out (3 folds)",
+    "inner": "grouped two-fold tuning within the training row groups",
+    "test_subset": "row group R1, 200 plot-stage records"
+  },
+  "feature_inputs": "four reflectance bands plus 15 vegetation indices",
+  "scope": "partial peer-review reproducibility package; not the complete dataset"
+}

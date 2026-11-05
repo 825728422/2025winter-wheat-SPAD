@@ -1,0 +1,34 @@
+﻿field,description
+plot_id,Plot identifier; the same plot is followed across the five dates.
+treat_id,Cultivar-by-irrigation-by-nitrogen treatment identifier.
+treatment,Original treatment label.
+replicate,Row-group label; this package contains the held-out R1 group only.
+date,Flight date (ISO date).
+stage,Date-based field stage proxy used in the study.
+stage_order,"Ordinal stage number, 1 to 5."
+stage_num,Numeric stage code used in the analysis.
+cultivar,Cultivar label.
+W,Irrigation treatment code.
+N,Nitrogen treatment code.
+W_mm,Nominal irrigation amount in mm.
+N_kg,Nominal nitrogen amount in kg N per ha.
+rededge,Mean red-edge reflectance in the plot ROI.
+red,Mean red reflectance in the plot ROI.
+nir,Mean near-infrared reflectance in the plot ROI.
+green,Mean green reflectance in the plot ROI.
+NDVI,Normalized difference vegetation index.
+GNDVI,Green normalized difference vegetation index.
+NDRE,Normalized difference red-edge index.
+CLRE,Chlorophyll red-edge index.
+GCI,Green chlorophyll index.
+OSAVI,Optimized soil-adjusted vegetation index.
+MSAVI,Modified soil-adjusted vegetation index.
+EVI2,Two-band enhanced vegetation index.
+RVI,Ratio vegetation index.
+DVI,Difference vegetation index.
+RDVI,Renormalized difference vegetation index.
+MSR,Modified simple ratio.
+RERVI,Red-edge ratio vegetation index.
+REDVI,Red-edge difference vegetation index.
+REOSAVI,Red-edge optimized soil-adjusted vegetation index.
+SPAD,Measured plot-level SPAD mean from nine leaf readings; target variable.
